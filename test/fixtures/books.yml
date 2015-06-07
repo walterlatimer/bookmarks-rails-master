@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  description: MyString
+  publisher: MyString
+  weeks_on_list: 1
+  rank_this_week: 1
+
+two:
+  title: MyString
+  author: MyString
+  description: MyString
+  publisher: MyString
+  weeks_on_list: 1
+  rank_this_week: 1

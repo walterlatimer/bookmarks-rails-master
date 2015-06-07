@@ -12,8 +12,20 @@
 
 
 
-b3 = Book.create(title: "Wild", author: "Cheryl Strayed", description: "A woman’s account of the life-changing 1,100-mile solo hike she took along the Pacific Crest Trail in 1995.", publisher: "Vintage", weeks_on_list: 95, rank_this_week: 3)
-Review.create(comment: "Spectacular. . . . A literary and human triumph.", author: "The New York Times Book Review", book_id: b3.id)
+b3 = Book.create(
+  title: "Wild",
+  author: "Cheryl Strayed",
+  description: "A woman’s account of the life-changing 1,100-mile solo hike she took along the Pacific Crest Trail in 1995.",
+  publisher: "Vintage",
+  weeks_on_list: 95,
+  rank_this_week: 3
+)
+
+Review.create(
+  comment: "Spectacular. . . . A literary and human triumph.",
+  author: "The New York Times Book Review",
+  book_id: b3.id
+)
 Review.create(comment: "I was on the edge of my seat. . . . It is just a wild ride of a read . . . stimulating, thought-provoking, soul-enhancing.", author: "Oprah Winfrey", book_id: b3.id)
 
 b4 = Book.create(title: "The Boys in the Boat", author: "Daniel James", description: "A group of American rowers pursued gold at the 1936 Berlin Olympic Games.", publisher: "Penguin", weeks_on_list: 34, rank_this_week: 4)
